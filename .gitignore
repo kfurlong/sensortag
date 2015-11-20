@@ -1,0 +1,32 @@
+### C ###
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executables
+*.exe
+*.out
+*.app
+*.hex
+
+*.a
+*.map
+
+# IAR
+*.dep
+*.pbi
+*.cout
+*.pbd
+*.browse
+ble_cc26xx_2_01_00_44423/Projects/ble/SensorTag/CC26xx/IAR/settings
+ble_cc26xx_2_01_00_44423/Projects/ble/SensorTag/CC26xx/IAR/Application/CC2650/settings
+ble_cc26xx_2_01_00_44423/Projects/ble/SensorTag/CC26xx/IAR/Application/CC2650/configPkg
+ble_cc26xx_2_01_00_44423/Projects/ble/SensorTag/CC26xx/IAR/Stack/CC2650/settings
+ble_cc26xx_2_01_00_44423/Projects/ble/SensorTag/CC26xx/IAR/Config/src
+ble_cc26xx_2_01_00_44423/Projects/ble/SensorTag/CC26xx/IAR/Config/Boundary.log.pos
+ble_cc26xx_2_01_00_44423/Projects/ble/util/BIM_extflash/CC26xx/IAR/settings
+
+

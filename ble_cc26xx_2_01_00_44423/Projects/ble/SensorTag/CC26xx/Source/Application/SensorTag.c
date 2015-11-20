@@ -112,10 +112,10 @@
 
 // What is the advertising interval when device is discoverable
 // (units of 625us, 160=100ms)
-#define DEFAULT_ADVERTISING_INTERVAL          160
+#define DEFAULT_ADVERTISING_INTERVAL          1600
 
 // General discoverable mode advertises indefinitely
-#define DEFAULT_DISCOVERABLE_MODE             GAP_ADTYPE_FLAGS_LIMITED
+#define DEFAULT_DISCOVERABLE_MODE             GAP_ADTYPE_FLAGS_GENERAL
 
 // Minimum connection interval (units of 1.25ms, 80=100ms) if automatic
 // parameter update request is enabled
@@ -535,7 +535,7 @@ static void SensorTag_init(void)
 
   // Start Bond Manager
   VOID GAPBondMgr_Register(NULL);
-  
+
   // Enable interrupt handling for keys and relay
   PIN_registerIntCb(hGpioPin, SensorTag_callback);
 }
