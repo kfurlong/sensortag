@@ -1,0 +1,7 @@
+package/lib/lib/release/ti.sysbios.fatfs/ff.oem4: ff.c ./ff.h ./diskio.h /db/vendors/ti/arm/5.2.2/Linux/include/stdarg.h ./integer.h ./ffconf.h 
+ff.c:
+./ff.h:
+./diskio.h:
+/db/vendors/ti/arm/5.2.2/Linux/include/stdarg.h:
+./integer.h:
+./ffconf.h:

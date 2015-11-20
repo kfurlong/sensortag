@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Export-Package: xdc.services.global,xdc.services.spec,xdc.services.spe
+ c.views,xdc.services.mapping,xdc.services.intern.gen,config,org.mozil
+ la.javascript,org.mozilla.javascript.ast,org.mozilla.javascript.tools
+ ,org.mozilla.javascript.json
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.rt
+ sc.xdctools.server;visibility:=reexport,org.eclipse.rtsc.xdctools.rta
+ ;visibility:=reexport,com.ti.targets.omf;visibility:=reexport;resolut
+ ion:=optional
+Bundle-Vendor: Texas Instruments
+Eclipse-LazyStart: true
+Bundle-ClassPath: packages/xdc/services/spec/java/package.jar,packages
+ /xdc/shelf/java/antlr.jar,packages/xdc/services/global/java/package.j
+ ar,packages/xdc/services/mapping/java/package.jar,packages/xdc/servic
+ es/intern/gen/java/package.jar,config.jar,packages/xdc/shelf/java/js.
+ jar,packages/xdc/services/spec/views/java/package.jar,bin
+Bundle-Version: 3.31.1.33
+Bundle-Name: XDCtools core
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.rtsc.xdctools.core.CorePlugin
+Created-By: 1.6.0_37 (Sun Microsystems Inc.)
+Bundle-SymbolicName: org.eclipse.rtsc.xdctools.core;singleton:=true
+
+Name: packages/xdc/services/intern/gen/java/package.jar
+SHA1-Digest: Sz4CdPlHKDdiZ/ruHa6KEZLj+pQ=
+
+Name: packages/xdc/services/mapping/java/package.jar
+SHA1-Digest: ZkzU2gQhqrYYNkH6pY95zMmvs/0=
+
+Name: bin/org/eclipse/rtsc/xdctools/core/CorePlugin.class
+SHA1-Digest: DLoNyWptUUmB7OSUXffiNPFNhLk=
+
+Name: packages/xdc/shelf/java/antlr.jar
+SHA1-Digest: TtY0ffl+Ecb+WMB95hJsGfPQey8=
+
+Name: config.jar
+SHA1-Digest: Pcu8XTX9SnC8NyWpy7cXlpm3tgc=
+
+Name: packages/xdc/shelf/java/js.jar
+SHA1-Digest: hESuSmEm/Hb2/KlQnK14ctbdRVA=
+
+Name: packages/xdc/services/global/java/package.jar
+SHA1-Digest: LirDmN8qS9bFahArIP3IZh1dR5s=
+
+Name: packages/xdc/services/spec/views/java/package.jar
+SHA1-Digest: 0eMCAETp09UF2ZPkcF5gx3VMqN8=
+
+Name: packages/xdc/services/spec/java/package.jar
+SHA1-Digest: GrsE1hGX+kcYr9XaMkhCe/HA3ls=
+

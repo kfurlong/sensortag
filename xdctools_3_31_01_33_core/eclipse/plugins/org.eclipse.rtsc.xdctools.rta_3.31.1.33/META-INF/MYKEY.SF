@@ -1,0 +1,17 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: T12ntHH6K8tlkSu8ZNbU5aBwNEM=
+Created-By: 1.6.0_37 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: WH/G4tUoOVk2BkXwGwubRHzXQPA=
+
+Name: packages/xdc/rov/java/package.jar
+SHA1-Digest: X9tzkVAys/p209kZXcNgH/d6oJo=
+
+Name: packages/xdc/runtime/java/package.jar
+SHA1-Digest: IpIQeqfk/ky0tLHDikDxNORUJ8E=
+
+Name: packages/xdc/rta/java/package.jar
+SHA1-Digest: BgFYstZ8DU0RJLOt+66pTDIJzgw=
+
+Name: packages/xdc/services/global/java/package.jar
+SHA1-Digest: xnYaATv80ezWt4bnn5+RlnKq9vY=
+
